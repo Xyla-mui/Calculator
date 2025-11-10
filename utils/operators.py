@@ -36,12 +36,13 @@ def divide(x, y):
     y = to_numbers(y)
 
     return x / y
- #modulus remainder of division
+# modulus remainder of division
+
+
 def modulus(x, y):
-  if y == 0
-    #Handles errors
-    return = "Error: modulus by zero"
-    
+    if y == 0:
+        return "Error: modulus by zero"
+
     x = to_numbers(x)
     y = to_numbers(y)
- return = x % y 
+    return x % y
