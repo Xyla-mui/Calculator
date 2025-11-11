@@ -237,6 +237,7 @@ def mem_get(key: str):
     table.add_row("get", key, str(val) if found else "[red]<not found>[/red]")
     console.print(table)
 
+#Trial
 @app.command()
 def mem_clear(key: Optional[str] = typer.Argument(None, help="key to clear; omit to clear all")):
     """Clear a key from memory or clear all if no key provided."""
