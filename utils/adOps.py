@@ -1,5 +1,5 @@
 import math
-#advanced operators like square roots
+#advanced operators like square rootsb
 def power(x,y):
     return x ** y
 def squre_root(x):
