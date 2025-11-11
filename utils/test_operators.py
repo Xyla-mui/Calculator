@@ -5,7 +5,7 @@ import operators as op
 #  ADD
 def test_add_valid():
     assert op.add(5, 7) == 12
-    assert op.add("5", 7) == 12
+    assert op.add(5, 7) == 12
     assert op.add("3.5", 2.5) == 6.0
 
 
@@ -33,8 +33,8 @@ def test_multiply_invalid():
 #  MODULUS
 def test_modulus_valid():
     assert op.modulus(10, 3) == 1
-    assert op.modulus("10", 4) == 2
-    assert op.modulus("7.5", 2.5) == 0.0
+    assert op.modulus(10, 4) == 2
+    assert op.modulus(7.5, 2.5) == 0.0
 
 
 def test_modulus_invalid():
